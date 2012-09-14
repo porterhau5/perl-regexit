@@ -11,15 +11,17 @@ Perl
 Usage
 -----
 
-Put the data files in the data/ directory
+Put the data files in the _data/_ directory
 
-Update any configuration variables in regexit.conf
+Update any configuration variables in _regexit.conf_.
 
+<pre>
 perl regexit.pl
+</pre>
 
-By default, the script looks for data files in the data/ directory. Output files are written to the output/ directory. Both of these values can be changed in the regexit.conf file.
+By default, the script looks for data files in the _data/_ directory. Output files are written to the _output/_ directory. Both of these values can be changed in the _regexit.conf_ file.
 
-By default, the script will run all regular expressions against the data files. These can be turned on/off by editing the regexit.conf file.
+By default, the script will run all regular expressions against the data files. These can be turned on/off by editing the _regexit.conf_ file.
 
 The data currently in the data directory is a couple emails from the Enron email data set.
 
@@ -27,7 +29,7 @@ Output
 ------
 <pre>
 user@host:~/perl-regexit$ perl regexit.pl
-Current file: data1/commonfile.txt
+Current file: data/commonfile.txt
 Current file: data/set1
 Current file: data/set1/file1.txt
 Current file: data/set1/file2.txt
