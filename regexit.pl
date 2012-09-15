@@ -3,7 +3,7 @@
 # +---------------------------------------------------------------+
 # | Name: regexit.pl                                              |
 # |                                                               |
-# | Author: Tom Porter                                            |
+# | Author: porterhau5                                            |
 # |                                                               |
 # | Purpose: Pull regular expression matches out of file(s)       |
 # |                                                               |
