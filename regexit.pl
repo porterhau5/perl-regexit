@@ -13,6 +13,7 @@
 # +---------------------------------------------------------------+
 
 use File::Find;
+use File::Path qw(make_path);
 
 # open regexit.conf and pull out properties
 $conf_file = <regexit.conf>;
@@ -45,6 +46,15 @@ foreach $property (@conf)
         {
                 $enable_internet_urls = $1;
         }
+}
+
+#remove \n from outputdir
+chomp($outputdir);
+
+# create outputdir if it doesn't exist
+if( ! -d $outputdir)
+{
+	make_path($outputdir);
 }
 
 # open Email addresses file

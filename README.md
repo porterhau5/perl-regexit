@@ -55,7 +55,6 @@ Current Expressions
 
 TODO
 ----
-* Check for existence of output dir, mkdir if it doesn't exist
 * Add in an optional param to take in single file (or dir)... can default to regexit.conf file if none specified
 * Add in option to print matches to screen
 * Add expression for matching SS numbers
